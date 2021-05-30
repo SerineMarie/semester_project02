@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://use.typekit.net/gxh3rbf.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/gxh3rbf.css" />
+    <script
+      src="https://kit.fontawesome.com/9bbccdf472.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Community Science Museum</title>
+    <meta name="description" content="Home page of Community Science Museum" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,0" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/images.css" rel="stylesheet" />
+
+
+  </head>
+  <body>
+    <header>
+      <section class="container">
+        <label class="hamburger-label" for="hamburger-menu"
+        ><i class="fas fa-bars"></i
+        ></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <div class="navbar">
+          <nav>
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="visit.html">Visit</a></li>
+              <li><a href="involved.html">Get involved</a></li>
+              <li><a href="explore.html">Explore</a></li>
+              <li><a href="mobile/exhibition.html">Exhibition</a></li>
+            </ul>
+          </nav>
+          <input class="searchform" type="text" placeholder="Search">
+        </div>
+        <a href="index.html"
+          ><img src="images/logo.svg" alt="logo" class="logo"
+        /></a>
+        <a href="index.html" class="siteTitle"><p>Community Science Museum</p></a>
+      </section>
+    </header>
+
+    <main>
+      <img src="images/mammoth1.jpg" alt="mammoth skeleton" class="mammoth" />
+      <h1 class="indexHeading">exhibition spaces</h1>
+      <section class="exhibitions">
+        <div class="infoContainer">
+          <a href="/mobile/cosmology.html">
+            <p class="containerTitle" id="link">cosmology</p>
+            <img
+              src="images/moon1.jpg"
+              alt="different phases of when the sun hits the moon"
+              class="img moon"
+              id="moon"
+            />
+            <p class="containerInfo">
+              Explore the wonders of our cosmos, at our fantastic exhibition "The
+              Sky Above".
+            </p>
+          </a>
+        </div>
+        <div class="infoContainer">
+          <a href="/mobile/evolution.html">
+            <p class="containerTitle" id="link">evolution</p>
+            <p class="containerInfo">Where do we come from and how did we get here?</p>
+            <img
+              src="images/skeleton.jpg"
+              alt="the evolution of humans, from monkey to neanderthanls to human"
+              class="img skeleton"
+              id="skeleton"
+            />
+          </a>
+        </div>
+        <div class="infoContainer">
+          <a href="/mobile/ecology.html">
+            <p class="containerTitle" id="link">ecology</p>
+            <p class="containerInfo">
+              Unpack the dangers we currently face including globalwarming,
+              extinction of species, and pollution
+            </p>
+            <img
+              src="images/ants.jpg"
+              alt="one large ant and one smaller one"
+              class="img"
+              id="ants"
+          /></a>
+        </div>
+        <div class="infoContainer">
+          <a href="/mobile/biology.html">
+            <p class="containerTitle" id="link">biology and medicine</p>
+            <img
+              src="images/brain1.jpg"
+              alt="a seethrough skull, where artificial brainmasse and vessels show"
+              class="img brain"
+              id="brain"
+            />
+            <p class="containerInfo">
+              Explore the unique insights into the great wonders of the tiny world
+            </p>
+          </a>
+        </div>
+        <div class="infoContainer">
+          <a href="/mobile/robotics.html">
+            <p class="containerTitle" id="link">robotics and ai</p>
+
+            <img
+              src="images/robtherobot.jpg"
+              alt="Rob the Robot waving"
+              class="img"
+              id="robot"
+            />
+            <p class="containerInfo">
+              The future is here! You can even say hello and shake the hand of Rob
+              the Robot
+            </p>
+          </a>
+        </div>
+        <div class="infoContainer">
+          <a href="/desktop/events.html">
+            <p class="containerTitle" id="link">special events</p>
+
+            <img
+              src="images/event.jpg"
+              alt="skeleton of a dinosaur"
+              class="img event"
+              id="event"
+            />
+            <p class="containerInfo">
+              Go check out our news, speical events and happenings
+            </p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="images/footer.jpg" alt="chemistry glasses" class="img" id="footer" />
+      <section class="footer">
+        <div class="footer1">
+          <p class="subtitle">contact us</p>
+          <p>Call us at:</p>
+          <p>123 45 678</p>
+          <p>Or send us an email:</p>
+          <p>science.museum@help.com</p>
+        </div>
+        <div class="footer2">
+          <a href="about.html">
+            <p class="subtitle" id="link">about us</p></a>
+          <p>We have over 1000 different exhibits. Many of</p> 
+          <p>these exhibits are designed for you to interact</p> 
+          <p>with and play around to...</p>
+          <a href="about.html" class="more"><p>more--></p></a>
+        </div>
+        <div class="footer3">
+          <p class="subtitle">membership/</p>
+          <p class="undersub">newsletter</p>
+
+
+          <div class="newsletterForm">
+            <form id="form">
+              <div class="signUpForm">
+                <div>
+                  <label>
+                    Fullname
+                    <input type="text" name="fullname" id="fullname">
+                  </label>
+                  <div class="error" id="fullnameError"> Minimum of 5 characters</div>
+                </div>
+                <div>
+                  <label>
+                    Email
+                    <input type="email" name="email" id="email">
+                  </label>
+                  <div class="error" id="emailError">Please enter a valid email address</div>
+                </div>
+                <div>
+                  <label>
+                    Birth-year
+                    <input type="number" name="birth-year" id="birth-year" min="1" max="9999">
+                  </label>
+                  <div class="error" id="birthyearError">Please enter 4 didgets</div>
+                </div>
+              </div>
+              <div class="radiobtn">
+                  <label> 
+                    <input type="radio" name="gender" value="male" id="male">Male
+                  </label>
+                  <label> 
+                    <input type="radio" name="gender" value="female" id="female">Female
+                  </label>
+                  <label> 
+                    <input type="radio" name="gender" value="other" id="other">Other
+                  </label>
+                  <div class="purpose">
+                    <label> 
+                      <input type="radio" name="purpose" value="educational">Educational
+                    </label>
+                    <label> 
+                      <input type="radio" name="purpose" value="leisure" id="leisure">Leisure
+                    </label>
+                  </div>
+                </div>
+              <button class="button">Send in</button>
+            </form>
+          </div>
+      </section>
+      <p>&copy 2020 Sicence Museum</p>       
+    </footer>
+  </body>
+  <script src="js/script.js"></script>
+</html>

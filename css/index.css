@@ -1,0 +1,56 @@
+.mammoth {
+  width: 100%;
+}
+
+.img {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.brain,
+.event {
+  width: 55%;
+  margin-left: 20%;
+}
+
+.indexHeading {
+  font-family: "Indie Flower", sans-serif;
+  color: var(--orange);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.exhibitions {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.infoContainer {
+  font-family: "gaultier", sans-serif;
+  border: solid var(--orange);
+  width: 40%;
+  /* height: 100%; */
+  margin: 4%;
+}
+
+.infoContainer a {
+  text-decoration: none;
+}
+
+.containerTitle {
+  border: solid var(--orange);
+  margin-top: -8%;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blue);
+  background-color: var(--white);
+}
+
+.containerInfo {
+  margin: 2%;
+  font-size: 1.2em;
+  color: var(--blue);
+  text-align: center;
+}
