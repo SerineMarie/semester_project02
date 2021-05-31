@@ -2,8 +2,6 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="https://use.typekit.net/gxh3rbf.css">
-
-
     <link
       href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
       rel="stylesheet"
@@ -16,15 +14,16 @@
     <title>Community Science Museum</title>
     <meta name="description" content="Home page of Community Science Museum" />
     <meta name="viewport" content="width=device-width, initial-scale=1,0" />
-  </head>
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/images.css" rel="stylesheet" />
+    <link href="css/general.css" rel="stylesheet" />
 
+
+
+  </head>
   <body>
     <header>
-      <section class="container">
-        <a href="index.html"
-          ><img src="images/logo.svg" alt="logo" class="img logo"
-        /></a>
-        <a href="index.html" class="name"><p>Community Science Museum</p></a>
+      <section class="navContainer">
         <label class="hamburger-label" for="hamburger-menu"
         ><i class="fas fa-bars"></i
         ></label>
@@ -32,14 +31,19 @@
         <div class="navbar">
           <nav>
             <ul>
+              <li><a href="index.html">Home</a></li>
               <li><a href="visit.html">Visit</a></li>
               <li><a href="involved.html">Get involved</a></li>
               <li><a href="explore.html">Explore</a></li>
-              <li><a href="mobile/exhibition.html">Exhibition</a></li>
+              <li><a href="exhibition.html">Exhibition</a></li>
             </ul>
           </nav>
           <input class="searchform" type="text" placeholder="Search">
         </div>
+        <a href="index.html"
+          ><img src="images/logo.svg" alt="logo" class="logo"
+        /></a>
+        <a href="index.html" class="siteTitle"><p>Community Science Museum</p></a>
       </section>
     </header>
     <main>
@@ -54,7 +58,7 @@
       </div>
     </main>
     <footer>
-      <img src="images/footer.jpg" alt="chemistry glasses" class="img" />
+      <img src="images/footer.jpg" alt="chemistry glasses" class="img chemistry"/>
       <section class="footer">
         <div class="footer1">
           <p class="subtitle">contact us</p>
@@ -65,15 +69,16 @@
         </div>
         <div class="footer2">
           <a href="about.html">
-            <p class="subtitle" id="link">about us</p></a>
+            <p class="subtitle">about us</p></a>
           <p>We have over 1000 different exhibits. Many of</p> 
           <p>these exhibits are designed for you to interact</p> 
           <p>with and play around to...</p>
           <a href="about.html" class="more"><p>more--></p></a>
         </div>
         <div class="footer3">
-          <p class="subtitle">membership/</p>
-          <p class="undersub">newsletter</p>
+          <p class="subtitle">membership/newsletter</p>
+
+
           <div class="newsletterForm">
             <form id="form">
               <div class="signUpForm">

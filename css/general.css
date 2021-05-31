@@ -1,0 +1,119 @@
+:root {
+  --blue: #097fa3;
+  --orange: #ff8c1a;
+  --beige: #e6d6b5;
+  --white: #ffff;
+  --grey: #707070;
+  --black: #000000;
+  --red: #ff0000;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.chemistry {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  margin-left: -1%;
+  margin-bottom: -2%;
+  background-color: var(--beige);
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+  font-family: "gaultier", sans-serif;
+  font-size: 1.1em;
+  font-weight: 100;
+  width: 60%;
+  margin: 0% 1% 5% 0%;
+  color: var(--blue);
+}
+
+.footer2 a {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.subtitle {
+  color: var(--orange);
+  font-family: "gaultier", sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border: 2px solid var(--orange);
+  background-color: var(--white);
+}
+
+/*EMAIL FORM*/
+.signUpForm div {
+  margin: 2%;
+}
+
+.radiobtn {
+  padding-top: 2%;
+}
+
+.purpose {
+  padding-top: 1%;
+}
+
+label {
+  font-family: "gaultier-lights", sans-serif;
+  font-size: 1.1em;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+input {
+  font-family: "gaultier-lights", sans-serif;
+  font-size: 0.9em;
+  color: var(--grey);
+  cursor: pointer;
+}
+
+.button {
+  margin-top: 2%;
+  font-size: 1.2em;
+  color: var(--orange);
+  background-color: var(--beige);
+  border: var(--beige);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.error {
+  color: var(--red);
+  display: none;
+}
+
+/*MEDIA QUERY*/
+@media (min-width: 1024px) {
+  .chemistry {
+    width: 90%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footer1,
+  .footer2,
+  .footer3 {
+    width: 25%;
+    margin-bottom: 5%;
+  }
+}

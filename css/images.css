@@ -1,3 +1,24 @@
-/* .img {
+/* .chemistry {
   width: 100%;
+  margin-left: -2%;
 } */
+
+.visitImg {
+  width: 50%;
+}
+
+.museum {
+  width: 50%;
+  height: 45%;
+}
+
+.café,
+.exhibitionimg,
+.exploreimg {
+  width: 90%;
+}
+
+.galaxy,
+.vrglass2 {
+  width: 50%;
+}

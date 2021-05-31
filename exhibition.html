@@ -2,8 +2,6 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="https://use.typekit.net/gxh3rbf.css">
-
-
     <link
       href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
       rel="stylesheet"
@@ -16,15 +14,17 @@
     <title>Community Science Museum</title>
     <meta name="description" content="Home page of Community Science Museum" />
     <meta name="viewport" content="width=device-width, initial-scale=1,0" />
-  </head>
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/images.css" rel="stylesheet" />
+    <link href="css/general.css" rel="stylesheet" />
+    <link href="css/visit.css" rel="stylesheet" />
 
+
+
+  </head>
   <body>
     <header>
-      <section class="container">
-        <a href="index.html"
-          ><img src="images/logo.svg" alt="logo" class="img logo"
-        /></a>
-        <a href="index.html" class="name"><p>Community Science Museum</p></a>
+      <section class="navContainer">
         <label class="hamburger-label" for="hamburger-menu"
         ><i class="fas fa-bars"></i
         ></label>
@@ -32,71 +32,76 @@
         <div class="navbar">
           <nav>
             <ul>
+              <li><a href="index.html" >Home</a></li>
               <li><a href="visit.html">Visit</a></li>
               <li><a href="involved.html">Get involved</a></li>
               <li><a href="explore.html">Explore</a></li>
-              <li><a href="mobile/exhibition.html">Exhibition</a></li>
+              <li><a href="exhibition.html"class="active">Exhibition</a></li>
             </ul>
           </nav>
           <input class="searchform" type="text" placeholder="Search">
         </div>
+        <a href="index.html"
+          ><img src="/images/logo.svg" alt="logo" class="logo"
+        /></a>
+        <a href="index.html" class="siteTitle"><p>Community Science Museum</p></a>
       </section>
     </header>
     <main>
       <h1>exhibition spaces</h1>
-        <aside class="box1" id="aside">
-          <p class="eventheader">news and special events</p>
-          <div class="bluebox">
-            <div class="event">
-              <a href="event1.html">
-                <p class="eventtilte" id="link">Visiting Professor of Aeronautics</p>
-                <p class="eventinfo">
-                  It is our pleasure to announce that Professor Sheila Widnall from the
-                  Massachusetts Institute of Technology will be delivering 3 lectures
-                  on the development of aeronautics and where the future lies in this
-                  exciting ‘space’.
-                </p>
-              </a>
-            </div>
-            <div class="event">
-              <a href="event2.html">
-                <p class="eventtilte" id="link">Nights at the museum</p>
-                <p class="eventinfo">
-                  Get your family together for an exciting night in the museum as you
-                  sleep over beside dinosaurs and science displays. Bring your own
-                  sleeping bag and get ready to rough it as we go exploring the
-                  wonders of science.
-                </p>
-              </a>
-            </div>
-            <div class="event">
-              <a  href="event3.html">
-                <p class="eventtilte" id="link">Energetica Exhibiton on Loan</p>
-                <p class="eventinfo">
-                  On loan from the NEMO Science Museum in Amsterdam, the Energetica
-                  exhibition is coming to the Community Science Museum. It’s a series
-                  of installations that allow visitors to experience the power of the
-                  elements as we harness them. From solar energy powering lighting, to
-                  ‘Wind Island’ that shows how turbines are able to use and control
-                  wind to create power.
-                </p>
-              </a>
-            </div>
+        <aside class="asideContainer">
+            <p class="title">news and special events</p>
+            <div class="eventContainer">
+              <div class="event">
+                <a href="event1.html">
+                  <p class="eventtitle">Visiting Professor of Aeronautics</p>
+                  <p> <p>When: 10.06.21, 11.06.21 and 12.06.21</p>
+                    It is our pleasure to announce that Professor Sheila Widnall from the
+                    Massachusetts Institute of Technology will be delivering 3 lectures
+                    on the development of aeronautics and where the future lies in this
+                    exciting ‘space’.
+                  </p>
+                </a>
+              </div>
+              <div class="event">
+                <a href="event2.html">
+                  <p class="eventtitle">Nights at the museum</p>
+                  <p> <p>When: 10.07.21- 15.07.21</p>
+                    Get your family together for an exciting night in the museum as you
+                    sleep over beside dinosaurs and science displays. Bring your own
+                    sleeping bag and get ready to rough it as we go exploring the
+                    wonders of science.
+                  </p>
+                </a>
+              </div>
+              <div class="event">
+                <a  href="event3.html">
+                  <p class="eventtitle">Energetica Exhibiton on Loan</p>
+                  <p> <p>When: 20.07.21-20.09.21</p>
+                    On loan from the NEMO Science Museum in Amsterdam, the Energetica
+                    exhibition is coming to the Community Science Museum. It’s a series
+                    of installations that allow visitors to experience the power of the
+                    elements as we harness them. From solar energy powering lighting, to
+                    ‘Wind Island’ that shows how turbines are able to use and control
+                    wind to create power.
+                  </p>
+                </a>
+              </div>
           </div>
         </aside>
-        <section class="grid">
-          <div class="box1" id="cosmo">
+        <section class="containerInfo">
+          <div class="container">
             <a href="cosmology.html">
-              <p class="title1" id="link">cosmology</p>
-              <p class="info" id="exhibinfo">
+              <p class="title">cosmology</p>
+              <p class="info">
                 Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky
                 Above Us’, explores the night sky and what we can see and know about the universe 
                 around us.</p>
                 <img
-                  src="../images/galaxy.jpg"
+                  src="images/galaxy.jpg"
                   alt="image of milky way galaxy"
-                  id="galaxy"/>
-                <p class="info" id="exhibinfo">We’ll locate the various constellations and galaxies
+                  class="exhibitionimg galaxy"/>
+                <p class="info" >We’ll locate the various constellations and galaxies
                 that can be seen and learn a bit about the early navigators who used the
                 stars to travel by. Follow the journey of our solar exploration: from
                 early Arab traders, to Galileo’s telescope, to the latest exploration of
@@ -104,15 +109,15 @@
               </p>
             </a>
           </div>
-          <div class="box1" id="eco">
+          <div class="container">
             <a href="ecology.html">
-              <p class="title1" id="link">ecology</p>
+              <p class="title">ecology</p>
               <img
-                src="../images/pollution.jpg"
+                src="images/pollution.jpg"
                 alt="factory pipes emits smoke whitch is pollution the air"
-                id="pollution"
+                class="exhibitionimg pollution"
               />
-              <p class="info" id="exhibinfo">
+              <p class="info">
                 As we learn more and more of the impact humans are having on the planet,
                 the more important it becomes that scientists explore how to create a
                 sustainable future not just for humans but for the whole planet. In our
@@ -124,15 +129,15 @@
             </a>
           </div>
 
-          <div class="box1" id="robo">
+          <div class="container" class="img robo">
             <a href="robotics.html">
-              <p class="title1" id="link">robtics and ai</p>
+              <p class="title" >robtics and ai</p>
               <img
-                src="../images/vrglass2.jpg"
+                src="images/vrglass2.jpg"
                 alt="girl trying on virtual reality glasses"
-                id="vrglass2"
+                class="exhibitionimg vrglass2"
               />
-              <p class="info" id="exhibinfo">
+              <p class="info">
                 The information revolution is here and robotics and artificial
                 intelligence are the science of the future. From useful home
                 applications of AI to industrial uses of robotics, the future is here.
@@ -141,10 +146,10 @@
             </a>
           </div>
 
-          <div class="box1" id="bio">
+          <div class="container">
             <a href="biology.html">
-              <p class="title1" id="link">biology and medicine</p>
-              <p class="info" id="exhibinfo">
+              <p class="title">biology and medicine</p>
+              <p class="info">
                 From micro-organisms to the human body, major breakthroughs in biology
                 are offering us unique insights into the great wonders of the tiny
                 world. For many people their life expectancy is much longer and their
@@ -152,11 +157,11 @@
                 of medicine. 
                 </p>
                 <img
-                src="../images/heart.jpg"
+                src="images/heart.jpg"
                 alt="artificial heart, showing how a heart looks like"
-                id="heart"
+                class="exhibitionimg heart"
               />
-                <p class="info" id="exhibinfo">
+                <p class="info">
                 Over a series of exhibits we explore the history of
                 medicine and take a look at some major breakthroughs including the
                 discovery of penicillin and the first heart transplant
@@ -164,11 +169,11 @@
             </a>
           </div>
 
-          <div class="box1" id="evo">
+          <div class="container">
             <a href="evolution.html">
-              <p class="title1" id="link">evolution</p>        
-              <img src="../images/mammoth.jpg" alt="mammoth skeleton" id="mammoth" />
-              <p class="info" id="exhibinfo">
+              <p class="title">evolution</p>        
+              <img src="images/mammoth.jpg" alt="mammoth skeleton" class="exhibitionimg mammoth" />
+              <p class="info">
                 For centuries, philosophers and scientists have wrestled with the
                 question of our origins. Where do we come from and how did we get here?
                 Since Darwin proposed his theory of evolution we have had a framework
@@ -183,7 +188,7 @@
         </section>
     </main>
     <footer>
-      <img src="../images/footer.jpg" alt="chemistry glasses" class="img" id="footer"/>
+      <img src="images/footer.jpg" alt="chemistry glasses" class="img chemistry"/>
       <section class="footer">
         <div class="footer1">
           <p class="subtitle">contact us</p>
@@ -194,7 +199,7 @@
         </div>
         <div class="footer2">
           <a href="/about.html">
-            <p class="subtitle" id="link">about us</p></a>
+            <p class="subtitle">about us</p></a>
           <p>We have over 1000 different exhibits. Many of</p> 
           <p>these exhibits are designed for you to interact</p> 
           <p>with and play around to...</p>
@@ -205,50 +210,51 @@
           <p class="undersub">newsletter</p>
           
           <div class="newsletterForm">
-            <form class="signUpForm">
-              <div>
-                <label>
-                  Fullname
-                  <input type="text" name="fullname" id="fullname">
-                </label>
-                <div class="error" id="fullnameError"> Minimum of 5 characters</div>
-              </div>
-              <div>
-                <label>
-                  Email
-                  <input type="email" name="email" id="email">
-                </label>
-                <div class="error" id="emailError">Please enter a valid email address</div>
-              </div>
-              <div>
-                <label>
-                  Birth-year
-                  <input type="number" name="birth-year" id="birth-year" min="1" max="9999">
-                </label>
-                <div class="error" id="birthyearError">Please enter 4 didgets</div>
-              </div>
-            </form>
-            <form class="radiobtn">
-                <label> 
-                  <input type="radio" name="gender" value="male" id="male">Male
-                </label>
-                <label> 
-                  <input type="radio" name="gender" value="female" id="female">Female
-                </label>
-                <label> 
-                  <input type="radio" name="gender" value="other" id="other">Other
-                </label>
-                <div class="purpose">
-                  <label> 
-                    <input type="radio" name="purpose" value="educational">Educational
+            <form id="form">
+              <div class="signUpForm">
+                <div>
+                  <label>
+                    Fullname
+                    <input type="text" name="fullname" id="fullname">
                   </label>
-                  <label> 
-                    <input type="radio" name="purpose" value="leisure" id="leisure">Leisure
-                  </label>
+                  <div class="error" id="fullnameError"> Minimum of 5 characters</div>
                 </div>
+                <div>
+                  <label>
+                    Email
+                    <input type="email" name="email" id="email">
+                  </label>
+                  <div class="error" id="emailError">Please enter a valid email address</div>
+                </div>
+                <div>
+                  <label>
+                    Birth-year
+                    <input type="number" name="birth-year" id="birth-year" min="1" max="9999">
+                  </label>
+                  <div class="error" id="birthyearError">Please enter 4 didgets</div>
+                </div>
+              </div>
+              <div class="radiobtn">
+                  <label> 
+                    <input type="radio" name="gender" value="male" id="male">Male
+                  </label>
+                  <label> 
+                    <input type="radio" name="gender" value="female" id="female">Female
+                  </label>
+                  <label> 
+                    <input type="radio" name="gender" value="other" id="other">Other
+                  </label>
+                  <div class="purpose">
+                    <label> 
+                      <input type="radio" name="purpose" value="educational">Educational
+                    </label>
+                    <label> 
+                      <input type="radio" name="purpose" value="leisure" id="leisure">Leisure
+                    </label>
+                  </div>
+                </div>
+              <button class="button">Send in</button>
             </form>
-            <button class="button">Send in</button>
-          </div>
       </section>
       <p>&copy 2020 Sicence Museum</p>       
     </footer>

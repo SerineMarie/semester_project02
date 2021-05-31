@@ -1,4 +1,4 @@
-.mammoth {
+.headingMammoth {
   width: 100%;
 }
 
@@ -30,7 +30,6 @@
   font-family: "gaultier", sans-serif;
   border: solid var(--orange);
   width: 40%;
-  /* height: 100%; */
   margin: 4%;
 }
 
@@ -53,4 +52,51 @@
   font-size: 1.2em;
   color: var(--blue);
   text-align: center;
+}
+
+/*MEDIA QUERY*/
+
+@media (min-width: 900px) {
+  .containerTitle {
+    margin-top: -3%;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 900px) {
+  .mammoth {
+    width: 100%;
+    margin-left: -2%;
+  }
+
+  .containerTitle {
+    margin-top: -13%;
+  }
+
+  .infoContainer {
+    width: 40%;
+    padding: 2%;
+    margin-left: -2%;
+  }
+}
+
+@media (min-width: 220px) and (max-width: 650px) {
+  .mammoth {
+    width: 120%;
+    margin-left: -2%;
+  }
+
+  .indexHeading {
+    font-size: 1.5em;
+  }
+
+  .containerTitle {
+    margin-top: -5%;
+    font-size: 1.2em;
+  }
+
+  .infoContainer {
+    width: 100%;
+    margin: 8%;
+    font-size: 1em;
+  }
 }

@@ -1,0 +1,138 @@
+:root {
+  --blue: #097fa3;
+  --orange: #ff8c1a;
+  --beige: #e6d6b5;
+  --white: #ffff;
+  --grey: #707070;
+}
+
+h1 {
+  text-align: center;
+  color: var(--orange);
+  font-family: "Indie Flower", sans-serif;
+  font-size: 2.3em;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.containerInfo {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.info {
+  font-size: 1.2em;
+}
+
+.container {
+  font-family: "gaultier", sans-serif;
+  color: var(--blue);
+  font-size: 1.1em;
+  width: 40%;
+  border: solid var(--orange);
+  margin: 2%;
+  text-align: center;
+}
+
+.title {
+  border: solid var(--orange);
+  font-family: "gaultier", sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blue);
+  margin-top: -5%;
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.more {
+  cursor: pointer;
+}
+.asideContainer {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.asideContainer .title {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.eventContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.event {
+  border: 1px solid var(--orange);
+  margin: 2%;
+  padding: 1%;
+}
+
+.eventtitle {
+  color: var(--orange);
+  font-size: 1.1em;
+}
+
+@media (min-width: 900px) {
+  .title {
+    margin-top: -3%;
+  }
+  .asideContainer {
+    margin-top: 10%;
+  }
+  .eventContainer {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 900px) {
+  .title {
+    margin-top: -13%;
+  }
+
+  .asideContainer {
+    margin-top: 15%;
+  }
+
+  .container {
+    width: 40%;
+    padding: 2%;
+    margin-bottom: 5%;
+  }
+  .eventContainer {
+    display: flex;
+  }
+}
+
+@media (min-width: 220px) and (max-width: 650px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .title {
+    margin-top: -5%;
+    font-size: 1.2em;
+  }
+
+  .asideContainer {
+    margin-top: 10%;
+  }
+
+  .container {
+    width: 100%;
+    margin: 8%;
+    font-size: 1em;
+  }
+  .eventContainer {
+    display: flex;
+  }
+}
